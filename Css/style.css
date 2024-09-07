@@ -105,6 +105,7 @@ hr{
     display: flex;
     align-items: center;
     gap: 6px;
+    cursor: pointer;
   }
   
   .logo-container {
@@ -208,6 +209,46 @@ hr{
 
   }
 
+/*
+----------------------------
+Sidebar start
+----------------------------
+*/
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #212121;
+  padding-top: 10px;
+  overflow-y: scroll;
+  width: 240px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar-items {
+  display: flex;
+  flex-direction: column;
+  padding: 0 14px;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  cursor: pointer;
+  height: 40px;
+  gap: 15px;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+
+
+.sidebar-item:hover {
+  background-color: #4c4c4c;
+}
 
 
 
