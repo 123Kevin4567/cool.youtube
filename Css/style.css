@@ -242,12 +242,22 @@ Sidebar start
   height: 40px;
   gap: 15px;
   border-radius: 10px;
-  transition: 0.8s;
+  transition: 0.4s;
 }
 
 
 .sidebar-item:hover {
   background-color: #4c4c4c;
+}
+
+.sidebar-item i {
+  margin-right: 8px;
+}
+
+.more{
+  color: rgb(85, 140, 189);
+  height: 40px;
+
 }
 
 
